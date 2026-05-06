@@ -121,3 +121,7 @@ STATIC_URL = 'static/'
 #STATICFILES_DIRS = [
 #    BASE_DIR / 'static',  # ← pasta global de estáticos do projeto
 #]
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
