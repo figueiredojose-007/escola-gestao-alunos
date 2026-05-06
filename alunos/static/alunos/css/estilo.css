@@ -1,0 +1,65 @@
+/* Cores do IFRN */
+:root {
+    --verde-ifrn: #00724a;
+    --verde-claro: #009a5e;
+}
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+header {
+    background: var(--verde-ifrn);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header h1 { margin: 0; font-size: 1.3rem; }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+nav a:hover { text-decoration: underline; }
+
+main { padding: 30px; }
+
+footer {
+    background: var(--verde-ifrn);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+th { background: var(--verde-ifrn); color: white; padding: 10px; }
+td { padding: 10px; border-bottom: 1px solid #ddd; }
+tr:hover { background: #f0f0f0; }
+
+.btn {
+    background: var(--verde-ifrn);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.btn-ver {
+    background: var(--verde-claro);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+form label { display: block; margin: 10px 0; }
+form input { padding: 6px; width: 300px; border: 1px solid #ccc; border-radius: 4px; }

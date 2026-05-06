@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2>Perfil do Aluno</h2>
+<p><strong>Nome:</strong> João Silva</p>
+<p><strong>Matrícula:</strong> 20241001</p>
+<p><strong>Curso:</strong> Informática</p>
+<p><strong>Turma:</strong> 2024.1</p>
+<a href="{% url 'alunos:lista' %}" class="btn">Voltar</a>
+{% endblock %}
